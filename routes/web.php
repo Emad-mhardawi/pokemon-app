@@ -13,4 +13,4 @@ use App\Http\Controllers\PokemonController ;
 |
 */
 
-Route::get('/',[PokemonController::class, 'index']);
+Route::get('/', [PokemonController::class, 'index']);

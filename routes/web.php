@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\PokemonController;
-use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PokemonController ;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PokemonController::class,'index']);
+Route::get('/',[PokemonController::class,'index']);

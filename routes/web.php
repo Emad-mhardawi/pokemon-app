@@ -1,6 +1,6 @@
 <?php
 
-use App\http\Controllers\PokemonController;
+use App\Http\Controllers\PokemonController;
 use Illuminate\Support\Facades\Route;
 
 /*

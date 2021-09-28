@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class PokemonController extends Controller
 {
     public function index(){
-        return 'asdad';
+        return view('home');
     }
 }

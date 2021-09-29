@@ -1,1 +1,226 @@
+.container {
+  max-width: 1440px;
+  padding: 25px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
 
+}
+
+@media screen and (max-width: 1024px){
+	.container {
+		grid-template-columns: 1fr 1fr 1fr ;
+		}
+}
+
+
+@media screen and (max-width: 800px){
+	.container {
+		grid-template-columns: 1fr 1fr  ;
+		}
+}
+
+@media screen and (max-width: 550px){
+	.container {
+		grid-template-columns: 1fr;
+		}
+}
+
+.card-link {
+	text-decoration: none;
+	color: black;
+}
+
+.pokemon-card {
+	height: 450px;
+	background-color: rgb(93, 168, 93);
+	padding: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 10px;
+	position: relative;
+	transition: 0.2s ease-in-out;
+}
+
+.pokemon-card:hover {
+	transform: translateY(-12px);
+}
+
+.image-box {
+	background-color: grey;
+	width: 100%;
+	height: 50%;
+	position: relative;
+}
+
+.image-box img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	padding-bottom: 10px;
+}
+
+.types {
+	display: flex;
+}
+.types p {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding: 5px 10px;
+	background-color: skyblue;
+}
+
+.name {
+	font-size: 30px;
+}
+
+
+.pokemon-desc {
+	height: 50%;
+	padding: 10px;
+}
+
+.not-found{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.pokemon-card.grass {
+	background-color: rgb(93, 168, 93);
+}
+.pokemon-card.fire {
+	background-color: rgb(172, 80, 103);
+}
+.pokemon-card.water {
+	background-color: rgb(77, 90, 165);
+}
+
+.pokemon-card.electric {
+	background-color: rgb(164, 165, 77);
+}
+
+.pokemon-card.ground {
+	background-color: rgb(97, 59, 59)
+}
+
+.pokemon-card.steel {
+	background-color: rgb(109, 107, 107)
+}
+
+.pokemon-card.normal {
+	background-color: rgb(76, 60, 121)
+}
+
+.pokemon-card.bug {
+	background-color: rgb(152, 42, 167)
+}
+.pokemon-card.rock {
+	background-color: rgb(155, 154, 170)
+}
+
+.pokemon-card.dragon {
+	background-color: rgb(206, 27, 69)
+}
+
+.pokemon-card.fairy {
+	background-color: rgb(14, 91, 136)
+}
+
+
+
+img.grass {
+	background-color: rgb(20, 66, 20);
+}
+
+img.fire {
+	background-color: rgb(80, 22, 22);
+}
+
+img.water {
+	background-color: rgb(12, 42, 141);
+}
+img.ground {
+	background-color: rgb(63, 32, 32)
+}
+
+img.electric {
+	background-color: rgb(214, 201, 22)
+}
+
+img.steel {
+	background-color: rgb(49, 49, 47)
+}
+
+img.normal {
+	background-color: rgb(33, 25, 70)
+}
+
+img.bug {
+	background-color: rgb(30, 5, 36)
+}
+
+img.dragon {
+	background-color: rgb(235, 14, 14)
+}
+
+img.fairy {
+	background-color: rgb(4, 88, 81)
+}
+
+
+.pokemon-desc.grass {
+	background-color: rgb(110, 196, 147);
+}
+.pokemon-desc.fire {
+	background-color: rgb(199, 111, 111);
+}
+.pokemon-desc.water {
+	background-color: rgb(148, 162, 211); 
+}
+
+.pokemon-desc.ground {
+	background-color: rgb(129, 101, 101)
+}
+
+.pokemon-desc.electric {
+	background-color: rgb(182, 182, 122)
+}
+
+.pokemon-desc.steel {
+	background-color: rgb(148, 148, 145)
+}
+
+.pokemon-desc.normal {
+	background-color: rgb(138, 111, 180)
+}
+
+.pokemon-desc.bug {
+	background-color: rgb(192, 163, 238)
+}
+
+.pokemon-desc.rock {
+	background-color: rgb(182, 182, 182)
+}
+
+
+
+
+
+
+.pokemon-desc.ice {
+	background-color: rgb(182, 182, 182)
+}
+.pokemon-desc.dragon {
+	background-color: rgb(216, 179, 179)
+}
+.pokemon-desc.fairy {
+	background-color: rgb(135, 198, 214)
+}
+.pokemon-desc.rock {
+	background-color: rgb(182, 182, 182)
+}

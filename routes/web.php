@@ -14,3 +14,6 @@ use App\Http\Controllers\PokemonController ;
 */
 
 Route::get('/',[PokemonController::class, 'index']);
+Route::get('/pokemons',[PokemonController::class, 'show']);
+Route::get('/pokemons/{pokemonName}',[PokemonController::class, 'showDetails']);
+Route::get('/search', [PokemonController::class,'search'])->name('search');

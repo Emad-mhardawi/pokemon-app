@@ -1,1 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.header-title{
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 5rem;
+  color: burlywood;
+  line-height: 1.6;
+}
+
+
+
+.header-title:hover{
+  color: tomato;
+  transition: .5s ease;
+}
+
+.search-form{
+  width: 600px;
+  position: relative;
+}
+
+.search-form_input{
+  width: 100%;
+  padding: 20px 10px;
+}
+  
+.search-form_button{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  right: 0;
+  color: white;
+  font-size: 20px;
+  background-color: teal;
+  border: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-title {
+    font-size: 3rem;
+  }
+  .search-form{
+    width: 350px;
+    background-color: aqua;
+  }
+  .search-form_input{
+    width: 100%;
+    padding: 10px 10px;
+  }
+  }
+
+.types p{
+  font-size: 30px;
+}
+.types .grass{
+  background-color: rgb(88, 214, 88);
+  
+}
+.types .fire{
+  background-color: rgb(212, 142, 142);
+}
+.types .water{
+  background-color: rgb(72, 176, 224);
+}
+.types .poison{
+  background-color: rgb(220, 230, 92);
+}

@@ -27,4 +27,9 @@
 @endforeach 
 </div>
 
+
+@if (empty($pokemon))
+    <p class="not-found">No Pokemon found</p>
+@endif
+
 @endsection
